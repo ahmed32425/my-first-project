@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="head">
-            <h4>LOGO</h4>
-        </div>
-        <div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Reviews</a></li>
-            </ul>
-        </div>
+      <div class="head">
+        <h4>LOGO</h4>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="toggle-container">
+        <button class="toggle-button" id="theme-toggle">Toggle</button>
+      </div>
     </nav>
-
-
     <div class="card">
-        <form>
-            <div>
-                <label for="fname">First Name</label>
-                <input type="text" name="fname" id="fname">
-            </div>
-            <div>
-                <label for="lname">Last Name</label>
-                <input type="text" name="lname" id="lname">
-            </div>
-            <div>
-                <input type="checkbox" id="agree" name="agree">
-                <label for="agree">I agree to <a href="#" target="_blank">terms and conditions</a></label>
-            </div>
-            <div>
-                <input type="submit" value="Submit">
-            </div>
-        </form>
+      <form>
+        <div>
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" />
+        </div>
+        <div style="margin-top: 10px">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" />
+        </div>
+        <div style="margin-top: 20px">
+          <input type="checkbox" id="agree" name="agree" />
+          <label for="agree"
+            >I agree to
+            <a href="#" target="_blank">terms and conditions</a></label
+          >
+        </div>
+        <div style="margin-top: 20px">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
     </div>
-    <h1>ahmed mujahid shaker</h1>
-</body>
+    <script src="toggle.js"></script>
+  </body>
 </html>
